@@ -1,0 +1,30 @@
+{
+  "notebook": "MNIST_Diffusion_Colab.ipynb",
+  "schema": "valid",
+  "syntax": "all code cells compiled",
+  "checks": [
+    {
+      "conditional": true,
+      "executed_code_cells": 20,
+      "result": "passed",
+      "data": "synthetic: 8 images",
+      "epochs": 1,
+      "device": "cpu"
+    },
+    {
+      "conditional": false,
+      "executed_code_cells": 20,
+      "result": "passed",
+      "data": "synthetic: 8 images",
+      "epochs": 1,
+      "device": "cpu"
+    }
+  ],
+  "not_checked": [
+    "Cloud Colab runtime",
+    "CUDA",
+    "MNIST full training",
+    "real Google Drive mount",
+    "browser upload/download"
+  ]
+}
