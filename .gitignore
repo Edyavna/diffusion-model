@@ -1,7 +1,30 @@
 .venv/
+.venv-gpu/
 __pycache__/
 *.pyc
 data/
 runs/
 samples*.png
 samples*.json
+
+# Local dependencies for face notebooks.
+/vendor_faces/
+/vendor_faces_optimized/
+
+# Local documentation and notebooks with line-by-line explanations.
+*.md
+*[рР]азбор*.ipynb
+*[пП]остроч*.ipynb
+*line_by_line*.ipynb
+*line-by-line*.ipynb
+
+# Notebook generators, auxiliary checks, and their reports.
+build_*.py
+generate_*.py
+check_*.py
+test_*.py
+*_test.py
+tests/
+COLAB_CHECK.json
+*_CHECK.json
+requirements-tested.txt
